@@ -505,10 +505,6 @@ footer a:hover {
     font-size: 100%;
 }
 
-.buildings_container:hover .overlay {
-    opacity: 1;
-}
-
-.buildings_container:active .overlay {
+.buildings_container:active .overlay, .buildings_container:hover .overlay {
     opacity: 1;
 }
