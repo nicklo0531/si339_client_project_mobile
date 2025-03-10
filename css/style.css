@@ -1,0 +1,511 @@
+* {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+/* skip to main */
+.skip {
+    position: absolute;
+    background-color: #FFCB05;
+    top: -40px;
+    color: #00274C;
+    height: 15px;
+}
+
+.skip:focus {
+    top: 20px;
+}
+
+/* body */
+body {
+    background-color: #FFFFFF;
+}
+
+/* logo */
+#logo {
+    width: 10%;
+    height: 80px;
+    width: auto;
+}
+
+/* nav */
+.header-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 20px;
+    padding-right: 2%;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCB05;
+    gap: 10px;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar li {
+    list-style: none;
+    width: 100%;
+}
+
+.navbar a {
+    color: black;
+    font-weight: bold;
+    font-size: 100%;
+    color: #00274C;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar a:hover, .navbar a:focus {
+    background-color: #00274C;
+    color: #FFCB05;
+    /* color: #FFFFFF; */
+    /* background-color: #FFFFFF; */
+}
+
+h1 {
+    grid-column: 1 / 3;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 150%;
+    margin: 0;
+    padding-top: 2%;
+    color: #00274C;
+}
+
+/* index.html */
+.index_section1 {
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 10px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.index_section1 h2 {
+    font-size: 2em;
+    color: #004080;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.index_section1 p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.index_section1 ol {
+    list-style-type: none;
+    text-align: center;
+}
+
+.index_section1 ol li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid #004080;
+    border-radius: 5px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.index_section1 ol li:hover {
+    background-color: #e6f7ff;
+    color: #fff;
+}
+
+.index_section1 ol li {
+    background-color: #004080;
+}
+
+#index_section_with_nav p {
+    text-decoration: underline;
+}
+
+.index_section1 a:link {
+    color: #FFFFFF;
+}
+
+.index_section1 a:visited {
+    color: #FFCB05;
+}
+
+/* academic resources */
+#academic_resources {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#academic_resources h2 {
+    font-size: 2.5em;
+    color: #004080;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#academic_resources h3 {
+    font-size: 1.5em;
+    color: #003366;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#academic_resources p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#academic_resources img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
+
+/* physical health */
+#physical_health {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#physical_health h2 {
+    font-size: 2.5em;
+    color: #004080;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#physical_health h3 {
+    font-size: 1.5em;
+    color: #003366;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#physical_health p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#physical_health img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px auto;
+}
+
+#physical_health article {
+    margin-bottom: 30px;
+}
+
+/* mental heatlh */
+#mental_health {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#mental_health h2 {
+    font-size: 2.5em;
+    color: #004080;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#mental_health h3 {
+    font-size: 1.5em;
+    color: #003366;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#mental_health p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#mental_health article {
+    margin-bottom: 30px;
+}
+
+#mental_health img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px auto;
+}
+
+/* outside the classroom */
+#life_outside_classroom {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#life_outside_classroom h2 {
+    font-size: 2.5em;
+    color: #004080;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#life_outside_classroom p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#life_outside_classroom ul {
+    list-style-type: none;
+}
+
+#life_outside_classroom li {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#life_outside_classroom strong {
+    font-weight: bold;
+    color: #004080;
+}
+
+#contact p {
+    text-decoration: underline;
+}
+
+/* footer */
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a {
+    color: #f2f2f2;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+
+/* academic success page */
+.academic_success_images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    /* margin-bottom: 5px; */
+    padding: 5px;
+}
+
+.academic_success_images img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.academic_success_text {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+.academic_success_text p {
+    font-size: 1.2em;
+    color: #004080;
+    text-align: left;
+}
+
+/* Academic Success Bullets */
+.academic_success_bullets {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.academic_success_bullets p {
+    font-size: 1.2em; 
+    margin-bottom: 20px;
+}
+
+.academic_success_bullets ol {
+    padding-left: 20px;
+    font-size: 1.1em;
+}
+
+.academic_success_bullets li {
+    margin-bottom: 10px;
+}
+
+.academic_success_bullets a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.academic_success_bullets a:hover {
+    text-decoration: underline;
+}
+
+
+/* tutoring site */
+.tutoring_site_images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: center; */
+    justify-items: center;
+    align-content: center;
+    column-gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.tutoring_site_images img {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tutoring_site_text {
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+.tutoring_site_text p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.tutoring_site_text p:nth-child(2) {
+    margin-top: 10px;
+    color: #004080;
+    text-decoration: underline;
+}
+
+.tutoring_site_text ol {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.tutoring_site_text ol li {
+    margin-bottom: 10px;
+}
+
+.tutoring_site_text ol li a {
+    font-size: 1em;
+    color: #004080;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.tutoring_site_text ol li a:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+.tutoring_site_text {
+    margin-bottom: 30px;
+}
+
+.tutoring_site_text p:last-child {
+    margin-top: 10px;
+}
+
+/* study spaces */
+.study_spaces_page h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #004080;
+}
+
+.study_spaces_page h3 {
+    font-size: 1.3em;
+    color: #004080;
+    text-align: center;
+}
+
+.study_spaces_page p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.buildings_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.buildings_container img {
+    width: 80%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.overlay {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    /* padding: 15px; */
+    border-radius: 8px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.overlay p {
+    font-size: 100%;
+}
+
+.buildings_container:hover .overlay {
+    opacity: 1;
+}
