@@ -131,9 +131,9 @@ h1 {
     background-color: #004080;
 }
 
-#index_section_with_nav p {
+/* #index_section_with_nav p {
     text-decoration: underline;
-}
+} */
 
 .index_section1 a:link {
     color: #FFFFFF;
@@ -292,9 +292,9 @@ h1 {
     color: #004080;
 }
 
-#contact p {
+/* #contact p {
     text-decoration: underline;
-}
+} */
 
 /* footer */
 footer {
@@ -497,7 +497,6 @@ footer a:hover {
     justify-content: center;
     text-align: center;
     opacity: 0;
-    /* padding: 15px; */
     border-radius: 8px;
     transition: opacity 0.3s ease-in-out;
 }
@@ -507,5 +506,9 @@ footer a:hover {
 }
 
 .buildings_container:hover .overlay {
+    opacity: 1;
+}
+
+.buildings_container:active .overlay {
     opacity: 1;
 }
